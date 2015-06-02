@@ -1,0 +1,21 @@
+#Items
+item.rainbow:RainbowPick.name=Rainbow Pickaxe
+item.rainbow:RainbowSpade.name=Rainbow Spade
+item.rainbow:Rainbow_Ingot.name=Rainbow Ingot
+item.rainbow:RainbowAxe.name=Rainbow Axe
+item.rainbow:RainbowHoe.name=Rainbow Hoe
+item.rainbow:RainbowSword.name=Rainbow Sword
+item.rainbow:Dye_ball_blue.name=Blue Dye Ball
+item.rainbow:Dye_ball_green.name=Green Dye Ball
+item.rainbow:Dye_ball_magenta.name=Magenta Dye Ball
+item.rainbow:Dye_ball_orange.name=Orange Dye Ball
+item.rainbow:Dye_ball_red.name=Red Dye Ball
+item.rainbow:Dye_ball_yellow.name=Yellow Dye Ball
+
+#blocks
+
+#tiles
+tile.Rainbow:rainbowfurnace.name=Rainbow Furnace
+
+#Creative tabs
+itemGroup.rainbow=Rainbow

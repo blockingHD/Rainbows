@@ -1,0 +1,23 @@
+[
+    {
+        "modid": "MultiplayerHD",
+        "name": "MultiplayerHD",
+        "description": "Multiplayer easyness",
+        "version": "1.7-1.0",
+        "credits": "Created by blockingHD",
+        "logoFile": "",
+        "mcversion": "1.7",
+        "url": "",
+        "updateUrl": "",
+        "authors": [
+            "blockingHD"
+        ],
+        "parent": "",
+        "screenshots": [
+            
+        ],
+        "dependencies": [
+            
+        ]
+    }
+]
