@@ -53,6 +53,8 @@ public class Rainbow {
 		ModTileEntities.init();
 		Recipes.init();
 
+		proxy.registerTileEntities();
+
 		logHelper.info("Init Complete!");
 	}
 

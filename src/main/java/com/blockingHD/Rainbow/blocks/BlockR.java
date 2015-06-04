@@ -1,7 +1,7 @@
 package com.blockingHD.Rainbow.blocks;
 
+import com.blockingHD.Rainbow.creativetab.CreativeTabRainbow;
 import com.blockingHD.Rainbow.reference.Reference;
-
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -11,7 +11,7 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 public class BlockR extends Block{
 	public BlockR(Material material){
 		super (material);
-		//this.setCreativeTab();
+		this.setCreativeTab(CreativeTabRainbow.Rainbow_TAB);
 	}
 	
 	public BlockR(){
