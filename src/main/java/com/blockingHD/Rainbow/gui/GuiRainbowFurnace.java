@@ -2,6 +2,7 @@ package com.blockingHD.Rainbow.gui;
 
 import com.blockingHD.Rainbow.RainbowTileEntity.TileEntityRainbowFurnace;
 import com.blockingHD.Rainbow.inventory.RainbowContainerRainbowFurnace;
+import com.blockingHD.Rainbow.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.gui.inventory.GuiContainer;
@@ -13,7 +14,7 @@ import org.lwjgl.opengl.GL11;
 @SideOnly(Side.CLIENT)
 public class GuiRainbowFurnace extends GuiContainer{
 
-    private static final ResourceLocation furnaceGuiTextures = new ResourceLocation("textures/gui/container/furnace.png");
+    private static final ResourceLocation furnaceGuiTextures = new ResourceLocation(Reference.MOD_ID + ":textures/gui/furnace.png");
     private TileEntityRainbowFurnace tileFurnace;
 
     public GuiRainbowFurnace(InventoryPlayer invplayer, TileEntityRainbowFurnace tile) {
@@ -36,11 +37,6 @@ public class GuiRainbowFurnace extends GuiContainer{
         int l = (this.height - this.ySize) / 2;
         this.drawTexturedModalRect(k, l, 0, 0, this.xSize, this.ySize);
         int i1;
-
-        if (this.tileFurnace.isBurning()){
-            i1 = this.tileFurnace.getBurnTimeRemainingScaled(12);
-            this.drawTexturedModalRect(k + 56, l + 36 + 12 - i1, 176, 12 - i1, 14, i1 + 2);
-        }
 
         i1 = this.tileFurnace.getCookProgressScaled(24);
         this.drawTexturedModalRect(k + 79, l + 34, 176, 14, i1 + 1, 16);

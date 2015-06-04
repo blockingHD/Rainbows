@@ -13,10 +13,4 @@ public class ClientProxy extends CommonProxy{
 		ClientRegistry.registerKeyBinding(Keybindings.release);
 		
 	}
-
-	@Override
-	public void registerTileEntities() {
-
-	}
-
 }

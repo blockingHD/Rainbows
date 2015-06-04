@@ -1,6 +1,7 @@
 package com.blockingHD.Rainbow.RainbowTileEntity;
 
 import com.blockingHD.Rainbow.blocks.RainbowFurnaceBlock;
+import com.blockingHD.Rainbow.handler.RainbowFurnaceRecipes;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -11,7 +12,6 @@ import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.tileentity.TileEntity;
@@ -121,12 +121,12 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
         NBTTagList tagList = tagCompound.getTagList("Items", 10);
         this.furnaceItemStacks = new ItemStack[this.getSizeInventory()];
 
-        for (int i = 0; i < tagList.tagCount(); ++i){
-            NBTTagCompound tagCompound1 = tagList.getCompoundTagAt(i);
-            byte byte0 = tagCompound1.getByte("Slot");
+        for (int i = 0; i < tagList.tagCount(); ++i) {
+            NBTTagCompound tabCompound1 = tagList.getCompoundTagAt(i);
+            byte byte0 = tabCompound1.getByte("Slot");
 
-            if (byte0 >= 0 && byte0 < this.furnaceItemStacks.length){
-                this.furnaceItemStacks[byte0] = ItemStack.loadItemStackFromNBT(tagCompound1);
+            if (byte0 >= 0 && byte0 < this.furnaceItemStacks.length) {
+                this.furnaceItemStacks[byte0] = ItemStack.loadItemStackFromNBT(tabCompound1);
             }
         }
 
@@ -134,7 +134,7 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
         this.furnaceCookTime = tagCompound.getShort("CookTime");
         this.currentBurnTime = getItemBurnTime(this.furnaceItemStacks[1]);
 
-        if (tagCompound.hasKey("CustomName", 8)){
+        if (tagCompound.hasKey("CustomName", 8)) {
             this.furnaceName = tagCompound.getString("CustomName");
         }
     }
@@ -142,7 +142,7 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
     public void writeToNBT(NBTTagCompound tagCompound) {
         super.writeToNBT(tagCompound);
         tagCompound.setShort("BurnTime", (short) this.furnaceBurnTime);
-        tagCompound.setShort("CookTime", (short) this.furnaceBurnTime);
+        tagCompound.setShort("CookTime", (short) this.furnaceCookTime);
         NBTTagList tagList = new NBTTagList();
 
         for (int i = 0; i < this.furnaceItemStacks.length; ++i) {
@@ -161,7 +161,7 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
         }
     }
 
-        @SideOnly(Side.CLIENT)
+    @SideOnly(Side.CLIENT)
     public int getCookProgressScaled(int par1){
         return this.furnaceCookTime * par1 / 200;
     }
@@ -224,7 +224,7 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
 
     public void smeltItem(){
         if (this.canSmelt()){
-            ItemStack itemstack = FurnaceRecipes.smelting().getSmeltingResult(this.furnaceItemStacks[0]);
+            ItemStack itemstack = RainbowFurnaceRecipes.smelting().getSmeltingResult(this.furnaceItemStacks[0]);
 
             if (this.furnaceItemStacks[2] == null){
                 this.furnaceItemStacks[2] = itemstack.copy();
@@ -232,9 +232,9 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
                 this.furnaceItemStacks[2].stackSize += itemstack.stackSize;
             }
 
-            --this.furnaceItemStacks[0].stackSize;
+            this.furnaceItemStacks[0].stackSize = this.furnaceItemStacks[0].stackSize - 8;
 
-            if (this.furnaceItemStacks[0].stackSize >= 0){
+            if (this.furnaceItemStacks[0].stackSize == 0){
                 this.furnaceItemStacks[0] = null;
             }
         }
@@ -258,7 +258,7 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
 
             //if (item instanceof ItemTool && ((ItemTool) item).getToolMaterialName().equals("WOOD")) return 200;
 
-            if (item == Items.nether_star) return 2000;
+            if (item == Items.nether_star) return 200;
             return 0;
         }
     }
@@ -267,7 +267,7 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
         if (this.furnaceItemStacks[0] == null){
             return false;
         }else{
-            ItemStack itemstack = FurnaceRecipes.smelting().getSmeltingResult(this.furnaceItemStacks[0]);
+            ItemStack itemstack = RainbowFurnaceRecipes.smelting().getSmeltingResult(this.furnaceItemStacks[0]);
             if (itemstack == null) return false;
             if(this.furnaceItemStacks[2] == null) return true;
             if (!this.furnaceItemStacks[2].isItemEqual(itemstack)) return false;

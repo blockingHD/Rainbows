@@ -27,9 +27,6 @@ import java.util.Random;
 public class RainbowFurnaceBlock extends BlockContainer {
 
     @SideOnly(Side.CLIENT)
-    private IIcon top;
-
-    @SideOnly(Side.CLIENT)
     private IIcon front;
 
     private static boolean isBurning;
@@ -47,13 +44,10 @@ public class RainbowFurnaceBlock extends BlockContainer {
     public void registerBlockIcons(IIconRegister iconRegister){
         this.blockIcon = iconRegister.registerIcon(Reference.MOD_ID + ":RainbowFurnaceSide");
         this.front = iconRegister.registerIcon(this.isBurning2 ? Reference.MOD_ID + ":RainbowFurnaceActive" : Reference.MOD_ID + ":RainbowFurnaceInactive");
-        this.top = iconRegister.registerIcon(Reference.MOD_ID + "RainbowFurnaceTop");
     }
 
     public IIcon getIcon(int side, int meta){
-        if (side == 1){
-            return top;
-        }else if (side == 3){
+        if (side == 3){
             return front;
         }else{
             return this.blockIcon;
