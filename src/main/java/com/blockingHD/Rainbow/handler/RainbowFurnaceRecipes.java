@@ -23,11 +23,16 @@ public class RainbowFurnaceRecipes {
 
     private RainbowFurnaceRecipes(){
         //ToDo work this out!!!
-        this.rainbowAddRecipie(new ItemStack(Items.dye ,1 ,12).getItem(), new ItemStack(ModItems.RainbowDyeBallBlue), 0.8F);
+        this.rainbowAddRecipie(new ItemStack(Items.dye, 1, 12), new ItemStack(ModItems.RainbowDyeBallBlue), 0.8F);
+        this.rainbowAddRecipie(new ItemStack(Items.dye, 1, 10), new ItemStack(ModItems.RainbowDyeBallGreen), 0.8F);
+        this.rainbowAddRecipie(new ItemStack(Items.dye, 1, 13), new ItemStack(ModItems.RainbowDyeBallMagenta), 0.8F);
+        this.rainbowAddRecipie(new ItemStack(Items.dye, 1, 14), new ItemStack(ModItems.RainbowDyeBallOrange), 0.8F);
+        this.rainbowAddRecipie(new ItemStack(Items.dye, 1, 1), new ItemStack(ModItems.RainbowDyeBallRed), 0.8F);
+        this.rainbowAddRecipie(new ItemStack(Items.dye, 1, 11), new ItemStack(ModItems.RainbowDyeBallYellow), 0.8F);
     }
 
-    public void rainbowAddRecipie(Item item, ItemStack itemstack, float experience){
-        this.addLists(item, itemstack, experience);
+    public void rainbowAddRecipie(ItemStack item, ItemStack itemstack, float experience){
+        this.putLists(item, itemstack, experience);
     }
 
     public void addLists(Item item, ItemStack itemstack, float experience){

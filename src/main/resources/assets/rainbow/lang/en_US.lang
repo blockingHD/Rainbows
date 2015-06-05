@@ -13,7 +13,7 @@ item.rainbow:Dye_ball_red.name=Red Dye Ball
 item.rainbow:Dye_ball_yellow.name=Yellow Dye Ball
 
 #blocks
-tile.rainbow:RainbowFurnace.name=Rainbow Furnace
+tile.RainbowFurnace.name=Rainbow Furnace
 
 #tiles
 

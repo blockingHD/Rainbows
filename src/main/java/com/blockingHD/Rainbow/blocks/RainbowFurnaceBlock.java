@@ -36,21 +36,21 @@ public class RainbowFurnaceBlock extends BlockContainer {
     public RainbowFurnaceBlock(boolean isActive){
         super(Material.rock);
         this.setCreativeTab(CreativeTabRainbow.Rainbow_TAB);
-        this.setBlockName("RainbowFunace");
+        this.setBlockName("RainbowFurnace");
         isBurning2 = isActive;
     }
 
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister iconRegister){
         this.blockIcon = iconRegister.registerIcon(Reference.MOD_ID + ":RainbowFurnaceSide");
-        this.front = iconRegister.registerIcon(this.isBurning2 ? Reference.MOD_ID + ":RainbowFurnaceActive" : Reference.MOD_ID + ":RainbowFurnaceInactive");
+        this.front = iconRegister.registerIcon(Reference.MOD_ID + ":RainbowFurnaceFront");
     }
 
-    public IIcon getIcon(int side, int meta){
-        if (side == 3){
-            return front;
-        }else{
+    public IIcon getIcon(int side, int meta){{
+        if (side == 0 || side == 1){
             return this.blockIcon;
+        }
+            return this.front;
         }
     }
 
@@ -184,32 +184,6 @@ public class RainbowFurnaceBlock extends BlockContainer {
         }
         super.breakBlock(world, x, y, z, block, meta);
     }
-
-    @SideOnly(Side.CLIENT)
-    public void randomDisplayTick(World world, int x, int y, int z, Random random){
-        if (this.isBurning2){
-            int direction = world.getBlockMetadata(x, y, z);
-
-            float xx = (float) x + 0.5f, yy = (float) y + random.nextFloat() * 6.0f /16.0f, zz = (float) z + 0.5f, xx2 = (float) random.nextFloat() * 0.3f, zz2 = (float) random.nextFloat() * 0.3f;
-
-            if (direction == 4){
-                world.spawnParticle("smoke", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0f, 0.0f, 0.0f);
-                world.spawnParticle("flame", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0f, 0.0f, 0.0f);
-            }else if(direction == 5){
-                world.spawnParticle("smoke", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0f, 0.0f, 0.0f);
-                world.spawnParticle("flame", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0f, 0.0f, 0.0f);
-            }else if(direction == 3){
-                world.spawnParticle("smoke", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0f, 0.0f, 0.0f);
-                world.spawnParticle("flame", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0f, 0.0f, 0.0f);
-            }else if(direction == 2){
-                world.spawnParticle("smoke", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0f, 0.0f, 0.0f);
-                world.spawnParticle("flame", (double) (xx - zz2), (double) yy, (double) (zz + xx2), 0.0f, 0.0f, 0.0f);
-            }
-
-
-        }
-    }
-
 
     @Override
     public TileEntity createNewTileEntity(World world, int meta) {

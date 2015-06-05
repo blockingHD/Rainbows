@@ -12,7 +12,7 @@ public class ModBlocks {
 
 	public static void init() {
 		registerBlock(RainbowFurnaceBlock, "RainbowFurnace");
-        registerBlock(RainbowFurnaceBlockActive, "RainbowFurnaceActive");
+        registerBlock(RainbowFurnaceBlockActive, "RainbowFurnaceActive").setBlockName("RainbowFurnaceActive").setCreativeTab(null);
 
 	}
 }
