@@ -7,5 +7,4 @@ public class ServerProxy extends CommonProxy {
 
 		// NOOP
 	}
-
 }

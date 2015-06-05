@@ -35,6 +35,11 @@ public class Rainbow {
 		FMLCommonHandler.instance().bus().register(new ConfigHandler());
         NetworkRegistry.INSTANCE.registerGuiHandler(instance,new GuiHandler());
 
+        ModItems.init();
+        ModBlocks.init();
+        ModTileEntities.init();
+        Recipes.init();
+
 		proxy.registerKeyBindings();
 
 		// world generators registration
@@ -47,11 +52,6 @@ public class Rainbow {
 	public void init(FMLInitializationEvent event) {
 
 		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
-
-		ModItems.init();
-		ModBlocks.init();
-		ModTileEntities.init();
-		Recipes.init();
 
 		logHelper.info("Init Complete!");
 	}

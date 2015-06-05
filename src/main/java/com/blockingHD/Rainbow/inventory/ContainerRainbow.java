@@ -1,4 +1,4 @@
-package assets.rainbow.inventory;
+package com.blockingHD.Rainbow.inventory;
 
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
