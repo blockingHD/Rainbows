@@ -266,6 +266,8 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
     private boolean canSmelt(){
         if (this.furnaceItemStacks[0] == null){
             return false;
+        }else if (furnaceItemStacks[0].stackSize < 8){
+            return false;
         }else{
             ItemStack itemstack = RainbowFurnaceRecipes.smelting().getSmeltingResult(this.furnaceItemStacks[0]);
             if (itemstack == null) return false;

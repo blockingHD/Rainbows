@@ -23,13 +23,7 @@ public class Recipes {
 //        addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.RainbowDyeBallRed),"rrr","rnr","rrr", 'r', "dyeRed", 'n', new ItemStack(Items.nether_star)));
 //        addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.RainbowDyeBallYellow),"yyy","yny","yyy", 'y', "dyeYellow", 'n', new ItemStack(Items.nether_star)));
 
-        addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.RainbowFurnaceBlock), "dro", "yfg", "bmd",
-                'r', new ItemStack(ModItems.RainbowDyeBallRed),
-                'o', new ItemStack(ModItems.RainbowDyeBallOrange),
-                'y', new ItemStack(ModItems.RainbowDyeBallYellow),
-                'g', new ItemStack(ModItems.RainbowDyeBallGreen),
-                'b', new ItemStack(ModItems.RainbowDyeBallBlue),
-                'm', new ItemStack(ModItems.RainbowDyeBallMagenta),
+        addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.RainbowFurnaceBlock), "ddd", "dfd", "ddd",
                 'd', new ItemStack(Items.diamond),
                 'f', new ItemStack(Blocks.furnace)));
 
