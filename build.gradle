@@ -18,7 +18,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7-1.4"
+version = "1.7-1.41"
 group= "com.blockingHD.Rainbow" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "Rainbow"
 
