@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 
 public class ItemRainbowSpade extends ItemToolRainbowSpade {
 
-    public ItemRainbowSpade(){
+    public ItemRainbowSpade() {
         super();
         this.setUnlocalizedName("RainbowSpade");
         this.isItemTool(new ItemStack(this));
@@ -20,12 +20,14 @@ public class ItemRainbowSpade extends ItemToolRainbowSpade {
     }
 
     public void onUpdate(ItemStack itemstack, World world, Entity entity, int i, boolean flag) {
-        EntityPlayer Player = Minecraft.getMinecraft().thePlayer;
-        if (Player.getCurrentEquippedItem() != null && Player.getCurrentEquippedItem().getItem() == this) {
-            if(!Minecraft.getMinecraft().playerController.isInCreativeMode()){
-                if (Player.getHealth() > 10) {
-                    NetworkHandler.sendToServer(new MessageReduse());
-                    NetworkHandler.sendToServer(new MessageHunger());
+        if (!world.isRemote) {
+            EntityPlayer Player = Minecraft.getMinecraft().thePlayer;
+            if (Player.getCurrentEquippedItem() != null && Player.getCurrentEquippedItem().getItem() == this) {
+                if (!Minecraft.getMinecraft().playerController.isInCreativeMode()) {
+                    if (Player.getHealth() > 10) {
+                        NetworkHandler.sendToServer(new MessageReduse());
+                        NetworkHandler.sendToServer(new MessageHunger());
+                    }
                 }
             }
         }

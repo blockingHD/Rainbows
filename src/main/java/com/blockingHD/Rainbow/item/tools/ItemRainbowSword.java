@@ -14,7 +14,7 @@ import net.minecraft.world.World;
  */
 public class ItemRainbowSword extends ItemToolRainbowSword {
 
-    public ItemRainbowSword(){
+    public ItemRainbowSword() {
         super();
         this.setUnlocalizedName("RainbowSword");
         this.isItemTool(new ItemStack(this));
@@ -22,10 +22,12 @@ public class ItemRainbowSword extends ItemToolRainbowSword {
     }
 
     public void onUpdate(ItemStack itemstack, World world, Entity entity, int i, boolean flag) {
-        EntityPlayer Player = Minecraft.getMinecraft().thePlayer;
-        if (Player.getCurrentEquippedItem() != null && Player.getCurrentEquippedItem().getItem() == this) {
-            if(!Minecraft.getMinecraft().playerController.isInCreativeMode()){
-                NetworkHandler.sendToServer(new MessageStrength());
+        if (!world.isRemote) {
+            EntityPlayer Player = Minecraft.getMinecraft().thePlayer;
+            if (Player.getCurrentEquippedItem() != null && Player.getCurrentEquippedItem().getItem() == this) {
+                if (!Minecraft.getMinecraft().playerController.isInCreativeMode()) {
+                    NetworkHandler.sendToServer(new MessageStrength());
+                }
             }
         }
     }
