@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b625610-d069-4a02-b18e-49268e291614" name="Default" comment="Fixed stuff">
+    <list default="true" id="5b625610-d069-4a02-b18e-49268e291614" name="Default" comment="Updated .gitignore">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowAxe.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowAxe.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowHoe.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowHoe.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowPick.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowPick.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowSpade.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowSpade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowAxe.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowAxe.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowHoe.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowHoe.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowPick.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowPick.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSpade.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSpade.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rainbow.iws" afterPath="$PROJECT_DIR$/Rainbow.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ServerProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ServerProxy.java" />
     </list>
     <ignored path="Rainbow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,47 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowAxe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/init/ModItems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemToolRainbowPick.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/ItemToolRainbowPick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28619528">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemToolRainbowAxe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/ItemToolRainbowAxe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemRainbowHoe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowHoe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              <caret line="26" column="98" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -124,8 +90,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowPick.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-              <folding />
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="27" selection-end-column="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,17 +102,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSpade.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <caret line="26" column="98" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemRainbowSword.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ItemRainbowSword.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.73913044">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,27 +122,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/MessageStrength.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <caret line="28" column="79" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="79" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.3.1407-1.7.10/forgeSrc-1.7.10-10.13.3.1407-1.7.10-sources.jar!/net/minecraft/entity/player/EntityPlayer.java">
+      <file leaf-file-name="ItemRainbowHoe.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowHoe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2319" column="16" selection-start-line="2319" selection-start-column="16" selection-end-line="2319" selection-end-column="16" />
-              <folding>
-                <element signature="e#14491#14492#0" expanded="true" />
-                <element signature="e#14516#14517#0" expanded="true" />
-                <element signature="e#51112#51113#0" expanded="true" />
-                <element signature="e#51186#51187#0" expanded="true" />
-                <element signature="e#51296#51297#0" expanded="true" />
-                <element signature="e#51338#51339#0" expanded="true" />
-              </folding>
+              <caret line="29" column="98" selection-start-line="29" selection-start-column="98" selection-end-line="29" selection-end-column="98" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -204,9 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/creativetab/CreativeTabRainbow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/ItemToolRainbowHoe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/MessageStrength.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/Materials.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/ItemToolRainbowSword.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/ItemRainbow.java" />
@@ -238,10 +194,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/inventory/RainbowContainerRainbowFurnace.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/client/gui/GuiFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/init/ModTileEntities.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ServerProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/IProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ClientProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/Rainbow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/gui/GuiRainbowFurnace.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/rainbow/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/blocks/RainbowFurnaceBlock.java" />
@@ -250,10 +202,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/init/Recipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/RainbowTileEntity/TileEntityRainbowFurnace.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/eclipse/eula.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/Rainbow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/IProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowPick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ServerProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSpade.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowHoe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowAxe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSpade.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.java" />
       </list>
     </option>
@@ -276,10 +235,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -313,26 +272,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rainbow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rainbow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rainbow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -374,6 +313,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RainbowTileEntity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.blockingHD.Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,6 +503,26 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -575,7 +552,7 @@
       <recent name="com.blockingHD.Rainbow.handler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Server">
+  <component name="RunManager" selected="Application.Minecraft Client">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -844,7 +821,19 @@
       <option name="project" value="LOCAL" />
       <updated>1433601913047</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed stuff">
+      <created>1433690489593</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1433690489593</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated .gitignore">
+      <created>1433694718390</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1433694718390</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -857,19 +846,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34270272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32756758" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2681081" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3012959" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32746115" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22901554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30054054" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18923241" sideWeight="0.49411765" order="5" side_tool="false" content_ui="tabs" />
@@ -902,7 +891,8 @@
     <MESSAGE value="Added and Fixed Rainbow furnace." />
     <MESSAGE value="Fixed Furnace bug and changed its recipe." />
     <MESSAGE value="Fixed stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed stuff" />
+    <MESSAGE value="Updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -916,48 +906,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/NetworkHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/MessageHunger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.3.1407-1.7.10/forgeSrc-1.7.10-10.13.3.1407-1.7.10-sources.jar!/net/minecraft/item/ItemBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.057724956">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/ItemToolRainbowSpade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07580825">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/reference/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08658744">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.3.1407-1.7.10/forgeSrc-1.7.10-10.13.3.1407-1.7.10-sources.jar!/net/minecraft/inventory/ContainerDispenser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.3.1407-1.7.10/forgeSrc-1.7.10-10.13.3.1407-1.7.10-sources.jar!/net/minecraft/tileentity/TileEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1070,41 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ServerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23089983">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/CommonProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.057724956">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/IProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11544991">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43293718">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/Rainbow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67781496">
-          <caret line="53" column="79" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/gui/GuiRainbowFurnace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1186,27 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1173#1174#0" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-            <element signature="e#1750#1751#0" expanded="false" />
-            <element signature="e#1802#1803#0" expanded="false" />
-            <element signature="e#1865#1866#0" expanded="false" />
-            <element signature="e#1916#1917#0" expanded="false" />
-            <element signature="e#3302#3303#0" expanded="false" />
-            <element signature="e#3393#3394#0" expanded="false" />
-            <element signature="e#3454#3455#0" expanded="false" />
-            <element signature="e#3534#3535#0" expanded="false" />
-            <element signature="e#3591#3592#0" expanded="false" />
-            <element signature="e#3616#3617#0" expanded="false" />
-            <element signature="e#5492#5493#0" expanded="false" />
-            <element signature="e#5548#5549#0" expanded="false" />
-            <element signature="e#5825#5826#0" expanded="false" />
-            <element signature="e#5872#5873#0" expanded="false" />
-            <element signature="e#9608#9609#0" expanded="false" />
-            <element signature="e#9661#9662#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,71 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="200" column="9" selection-start-line="200" selection-start-column="9" selection-end-line="200" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.3.1407-1.7.10/forgeSrc-1.7.10-10.13.3.1407-1.7.10-sources.jar!/net/minecraft/entity/player/EntityPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2319" column="16" selection-start-line="2319" selection-start-column="16" selection-end-line="2319" selection-end-column="16" />
-          <folding>
-            <element signature="e#14491#14492#0" expanded="true" />
-            <element signature="e#14516#14517#0" expanded="true" />
-            <element signature="e#51112#51113#0" expanded="true" />
-            <element signature="e#51186#51187#0" expanded="true" />
-            <element signature="e#51296#51297#0" expanded="true" />
-            <element signature="e#51338#51339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/MessageStrength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowAxe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowHoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowPick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSpade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,18 +1124,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/init/ModItems.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/ItemToolRainbowPick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/ItemToolRainbowPick.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/init/ModItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28619528">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eclipse/eula.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057239056">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.3.1407-1.7.10/forgeSrc-1.7.10-10.13.3.1407-1.7.10-sources.jar!/net/minecraft/entity/player/EntityPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
+          <folding>
+            <element signature="e#72173#72174#0" expanded="true" />
+            <element signature="e#72210#72211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.3.1407-1.7.10/forgeSrc-1.7.10-10.13.3.1407-1.7.10-sources.jar!/net/minecraft/util/FoodStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/NetworkHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/MessageReduse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/IProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08831169">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/ServerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17662337">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/Rainbow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45087484">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/MessageHunger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37532467">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06623377">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowPick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="27" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowHoe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="98" selection-start-line="29" selection-start-column="98" selection-end-line="29" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowAxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="98" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/MessageStrength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="79" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSpade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="98" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73913044">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>

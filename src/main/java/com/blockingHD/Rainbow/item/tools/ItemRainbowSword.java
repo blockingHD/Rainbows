@@ -1,12 +1,11 @@
 package com.blockingHD.Rainbow.item.tools;
 
 import com.blockingHD.Rainbow.item.mainClasses.ItemToolRainbowSword;
-import com.blockingHD.Rainbow.network.MessageStrength;
-import com.blockingHD.Rainbow.network.NetworkHandler;
-import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
 /**
@@ -23,10 +22,10 @@ public class ItemRainbowSword extends ItemToolRainbowSword {
 
     public void onUpdate(ItemStack itemstack, World world, Entity entity, int i, boolean flag) {
         if (!world.isRemote) {
-            EntityPlayer Player = Minecraft.getMinecraft().thePlayer;
-            if (Player.getCurrentEquippedItem() != null && Player.getCurrentEquippedItem().getItem() == this) {
-                if (!Minecraft.getMinecraft().playerController.isInCreativeMode()) {
-                    NetworkHandler.sendToServer(new MessageStrength());
+            EntityPlayerMP player = (EntityPlayerMP)entity;
+            if (player.getCurrentEquippedItem() != null && player.getCurrentEquippedItem().getItem() == this) {
+                if (!player.capabilities.isCreativeMode) {
+                    player.addPotionEffect(new PotionEffect(Potion.damageBoost.id, 120, 2));
                 }
             }
         }
