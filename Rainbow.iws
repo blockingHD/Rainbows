@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b625610-d069-4a02-b18e-49268e291614" name="Default" comment="Updated .gitignore">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/rainbow/textures/armor/rainbow_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/rainbow/textures/armor/rainbow_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/rainbow/textures/items/rainbow_helmet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/armor/ArmorRainbow.java" />
-      <change type="DELETED" beforePath="C:\Users\thomas\Desktop\Programing\Modding\Rainbow\out\production\Rainbow\com\blockingHD\Rainbow\network\MessageHunger.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\thomas\Desktop\Programing\Modding\Rainbow\out\production\Rainbow\com\blockingHD\Rainbow\network\MessageReduse.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\thomas\Desktop\Programing\Modding\Rainbow\out\production\Rainbow\com\blockingHD\Rainbow\network\MessageStrength.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\thomas\Desktop\Programing\Modding\Rainbow\src\main\java\com\blockingHD\Rainbow\network\MessageHunger.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\thomas\Desktop\Programing\Modding\Rainbow\src\main\java\com\blockingHD\Rainbow\network\MessageReduse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\thomas\Desktop\Programing\Modding\Rainbow\src\main\java\com\blockingHD\Rainbow\network\MessageStrength.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/mainClasses/Materials.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/item/mainClasses/Materials.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/init/ModItems.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/init/ModItems.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/network/NetworkHandler.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/network/NetworkHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/init/Recipes.class" afterPath="$PROJECT_DIR$/out/production/Rainbow/com/blockingHD/Rainbow/init/Recipes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/tools/ItemRainbowSword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/Materials.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/item/mainClasses/Materials.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/NetworkHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/network/NetworkHandler.java" />
+    <list default="true" id="5b625610-d069-4a02-b18e-49268e291614" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/rainbow/textures/items/rainbow_boots.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/rainbow/textures/items/rainbow_chestplate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/rainbow/textures/items/rainbow_leggings.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rainbow.iws" afterPath="$PROJECT_DIR$/Rainbow.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/init/Recipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/blockingHD/Rainbow/init/Recipes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rainbow/assets/rainbow/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/Rainbow/assets/rainbow/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/rainbow/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/rainbow/lang/en_US.lang" />
     </list>
     <ignored path="Rainbow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -401,6 +381,28 @@
               <option name="myItemId" value="textures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="items" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets.rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -753,7 +755,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433694718390</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rainbow armour added.">
+      <created>1435070917549</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1435070917549</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -812,7 +820,8 @@
     <MESSAGE value="Fixed Furnace bug and changed its recipe." />
     <MESSAGE value="Fixed stuff" />
     <MESSAGE value="Updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore" />
+    <MESSAGE value="Rainbow armour added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rainbow armour added." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
