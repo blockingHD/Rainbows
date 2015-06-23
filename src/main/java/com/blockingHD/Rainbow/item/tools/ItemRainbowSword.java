@@ -8,9 +8,6 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
-/**
- * Created by thomas on 29/05/2015.
- */
 public class ItemRainbowSword extends ItemToolRainbowSword {
 
     public ItemRainbowSword() {

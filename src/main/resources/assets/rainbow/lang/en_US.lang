@@ -12,6 +12,12 @@ item.rainbow:Dye_ball_orange.name=Orange Dye Ball
 item.rainbow:Dye_ball_red.name=Red Dye Ball
 item.rainbow:Dye_ball_yellow.name=Yellow Dye Ball
 
+#Armour
+item.rainbow_helmet.name=Rainbow Helmet
+item.rainbow_chestplate.name=Rainbow Chestplate
+item.rainbow_leggings.name=Rainbow Leggings
+item.rainbow_boots.name=Rainbow Boots
+
 #blocks
 tile.RainbowFurnace.name=Rainbow Furnace
 
