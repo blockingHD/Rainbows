@@ -27,7 +27,11 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
     public int furnaceBurnTime;
     public int currentBurnTime;
 
+    public ItemStack Itemstored;
+
     public int furnaceCookTime;
+
+    public boolean hasItem;
 
     private String furnaceName;
 
@@ -187,13 +191,15 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
         }
 
         if (!this.worldObj.isRemote){
-            if (this.furnaceBurnTime == 0 && this.canSmelt()){
+            if (this.furnaceBurnTime == 0){
                 this.currentBurnTime = this.furnaceBurnTime = getItemBurnTime(this.furnaceItemStacks[1]);
                 if(this.furnaceBurnTime > 0){
                     flag1 = true;
-                    if (this.furnaceItemStacks[1] != null){
+                    if (this.furnaceItemStacks[1] != null && this.furnaceItemStacks[0] != null){
                         this.furnaceItemStacks[1].stackSize = this.furnaceItemStacks[1].stackSize -1;
-
+                        this.furnaceItemStacks[0].stackSize = this.furnaceItemStacks[0].stackSize - 8;
+                        this.hasItem = true;
+                        this.Itemstored = this.furnaceItemStacks[0];
                         if (this.furnaceItemStacks[1].stackSize == 0){
                             this.furnaceItemStacks[1] = furnaceItemStacks[1].getItem().getContainerItem(this.furnaceItemStacks[1]);
                         }
@@ -224,19 +230,21 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
 
     public void smeltItem(){
         if (this.canSmelt()){
-            ItemStack itemstack = RainbowFurnaceRecipes.smelting().getSmeltingResult(this.furnaceItemStacks[0]);
+            ItemStack itemstack = RainbowFurnaceRecipes.smelting().getSmeltingResult(this.Itemstored);
 
             if (this.furnaceItemStacks[2] == null){
                 this.furnaceItemStacks[2] = itemstack.copy();
+                this.hasItem = false;
             }else if (this.furnaceItemStacks[2].getItem() == itemstack.getItem()){
                 this.furnaceItemStacks[2].stackSize += itemstack.stackSize;
+                this.hasItem = false;
             }
 
-            this.furnaceItemStacks[0].stackSize = this.furnaceItemStacks[0].stackSize - 8;
+            //this.furnaceItemStacks[0].stackSize = this.furnaceItemStacks[0].stackSize - 8;
 
-            if (this.furnaceItemStacks[0].stackSize == 0){
-                this.furnaceItemStacks[0] = null;
-            }
+            //if (this.furnaceItemStacks[0].stackSize == 0){
+              //  this.furnaceItemStacks[0] = null;
+            //}
         }
     }
 
@@ -264,12 +272,10 @@ public class TileEntityRainbowFurnace extends TileEntity implements ISidedInvent
     }
 
     private boolean canSmelt(){
-        if (this.furnaceItemStacks[0] == null){
-            return false;
-        }else if (furnaceItemStacks[0].stackSize < 8){
+        if (!this.hasItem){
             return false;
         }else{
-            ItemStack itemstack = RainbowFurnaceRecipes.smelting().getSmeltingResult(this.furnaceItemStacks[0]);
+            ItemStack itemstack = RainbowFurnaceRecipes.smelting().getSmeltingResult(this.Itemstored);
             if (itemstack == null) return false;
             if(this.furnaceItemStacks[2] == null) return true;
             if (!this.furnaceItemStacks[2].isItemEqual(itemstack)) return false;

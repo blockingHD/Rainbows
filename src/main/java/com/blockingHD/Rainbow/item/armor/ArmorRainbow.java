@@ -23,5 +23,5 @@ public class ArmorRainbow extends ItemArmor{
     {
         return Reference.MOD_ID + ":textures/armor/"  + this.textureName + "_" + (this.armorType == 2 ? "2" : "1") + ".png";
     }
-
 }
+
